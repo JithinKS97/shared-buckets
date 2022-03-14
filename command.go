@@ -9,9 +9,9 @@ func getCommandlineInput() string {
 	fmt.Scanln(&input)
 	switch input {
 	case "1":
-		input = "connect"
-	case "2":
 		input = "create"
+	case "2":
+		input = "connect"
 	}
 	return input
 }
